@@ -1,7 +1,7 @@
-<div class="ui container" id="navbar" style="background-color:#660000;">
+<div class="ui container" id="navbar" style="background-color:red;">
 	<div class="item brand" style="justify-content: space-between;">
 		<a href="{{AppSubUrl}}/">
-			<i class="octicon octicon-flame" style="font-size:30px;color:red;"></i>
+			<i class="octicon octicon-flame" style="font-size:30px;color:#660000;"></i>
 		</a>
 		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
 			<i class="sidebar icon"></i>
@@ -122,11 +122,11 @@
 		<div class="right stackable menu">
 			{{if .ShowRegistrationButton}}
 				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" >
-					<i class="octicon octicon-person" style="color:red"></i> {{.i18n.Tr "register"}}
+					<i class="octicon octicon-person" style="color:#660000;"></i> {{.i18n.Tr "register"}}
 				</a>
 			{{end}}
 			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" >
-				<i class="octicon octicon-sign-in" style="color:red"></i> {{.i18n.Tr "sign_in"}}
+				<i class="octicon octicon-sign-in" style="color:#660000;"></i> {{.i18n.Tr "sign_in"}}
 			</a>
 		</div><!-- end anonymous right menu -->
 
