@@ -195,7 +195,7 @@ input{background:#2e323e}
 .user.profile .ui.card .extra.content ul li:not(:last-child){border-bottom:1px solid #4c505c}
 .hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:#bd84bf}
 .ui.form .dropzone{border:2px dashed #4c505c}
-.ui.basic.red.button,.ui.basic.red.buttons .button{box-shadow:0 0 0 1px #a04141 inset!important;color:#a04141!important}
+.ui.basic.red.button,.ui.basic.red.buttons .button{box-shadow:0 0 0 1px black inset!important;color:#4d0000 !important}
 .ui.list .list>.item .header,.ui.list>.item .header{color:#dedede}
 .ui.list .list>.item .description,.ui.list>.item .description{color:#9e9e9e}
 .ui.user.list .item .description a{color:#668cb1}
