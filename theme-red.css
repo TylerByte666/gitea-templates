@@ -13,6 +13,7 @@
 .ui.horizontal.segments>.segment{background-color:#383c4a}
 body{background:#383c4a;color:#9e9e9e}
 a{color:#ff8080 }
+.following.bar .octicon{ color:#ff8080;}
 a:hover{color:#a0cc75}
 .ui.card>.extra a:not(.ui):hover,.ui.cards>.card>.extra a:not(.ui):hover{color:#a0cc75}
 .ui.breadcrumb a:hover{color:#a0cc75}

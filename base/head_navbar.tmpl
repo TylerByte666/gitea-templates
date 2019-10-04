@@ -1,7 +1,7 @@
 <div class="ui container" id="navbar">
 	<div class="item brand" style="justify-content: space-between;">
 		<a href="{{AppSubUrl}}/">
-			<i class="octicon octicon-flame" style="font-size:30px;color:red;"></i>
+			<i class="octicon octicon-flame" style="font-size:30px;"></i>
 		</a>
 		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
 			<i class="sidebar icon"></i>
@@ -118,14 +118,14 @@
 
 	{{else}}
 
-		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="color:white;font-size:20px;">{{.i18n.Tr "help"}}</a>
+		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="font-size:20px;">{{.i18n.Tr "help"}}</a>
 		<div class="right stackable menu">
 			{{if .ShowRegistrationButton}}
-				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="color:white;font-size:20px;">
+				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="font-size:20px;">
 					<i class="octicon octicon-person" style="color:red;font-size:20px;"></i> {{.i18n.Tr "register"}}
 				</a>
 			{{end}}
-			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="color:white;font-size:20px;">
+			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="font-size:20px;">
 				<i class="octicon octicon-sign-in" style="color:red;font-size:20px;"></i> {{.i18n.Tr "sign_in"}}
 			</a>
 		</div><!-- end anonymous right menu -->
