@@ -324,8 +324,8 @@
 </head>
 <body>	
 	{{template "custom/body_outer_pre" .}}
-	<div class="full height">
-	<div id="matrix">
+	<div id="matrix" class="full height">
+	
 		<noscript>{{.i18n.Tr "enable_javascript"}}</noscript>
 
 		{{template "custom/body_inner_pre" .}}
@@ -336,7 +336,7 @@
 			</div><!-- end bar -->
 		{{end}}
 {{/*
-</div>
+
 	</div>
 </body>
 </html>
