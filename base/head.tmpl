@@ -7,10 +7,6 @@
 	<title>{{if .Title}}{{.Title}} - {{end}} {{if .Repository.Name}}{{.Repository.Name}} - {{end}}{{AppName}}</title>
 	<link rel="manifest" href="{{AppSubUrl}}/manifest.json" crossorigin="use-credentials">
 	<script>
-	
-
-
-
 		if ('serviceWorker' in navigator) {
   			window.addEventListener('load', function() {
     			navigator.serviceWorker.register('{{AppSubUrl}}/serviceworker.js').then(function(registration) {
@@ -22,7 +18,6 @@
     			});
   			});
 		}
-
 	</script>
 	<meta name="theme-color" content="{{ThemeColorMetaTag}}">
 	<meta name="author" content="{{if .Repository}}{{.Owner.Name}}{{else}}{{MetaAuthor}}{{end}}" />

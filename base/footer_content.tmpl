@@ -1,13 +1,13 @@
 <footer style="background-color:red">
 	<div class="ui container">
-		<div class="ui left">
-			© Gitea {{if (or .ShowFooterVersion .PageIsAdmin)}}{{.i18n.Tr "version"}}: {{AppVer}}{{end}} {{if ShowFooterTemplateLoadTime}}{{.i18n.Tr "page"}}: <strong>{{LoadTimes .PageStartTime}}</strong> {{.i18n.Tr "template"}}: <strong>{{call .TmplLoadTimes}}</strong>{{end}}
+		<div class="ui left" style="color:#660000;">
+			© Trustco Group Holdings; Gitea {{if (or .ShowFooterVersion .PageIsAdmin)}}{{.i18n.Tr "version"}}: {{AppVer}}{{end}} {{if ShowFooterTemplateLoadTime}}{{.i18n.Tr "page"}}: <strong>{{LoadTimes .PageStartTime}}</strong> {{.i18n.Tr "template"}}: <strong>{{call .TmplLoadTimes}}</strong>{{end}}
 		</div>
 		<div class="ui right links">
 			{{if .ShowFooterBranding}}
 				<a target="_blank" rel="noopener noreferrer" href="https://github.com/go-gitea/gitea"><i class="fa fa-github-square"></i><span class="sr-only">GitHub</span></a>
 			{{end}}
-			<div class="ui language bottom floating slide up dropdown link item">
+			<div class="ui language bottom floating slide up dropdown link item" style="color:#660000;">
 				<i class="world icon"></i>
 				<div class="text">{{.LangName}}</div>
 				<div class="menu">
@@ -16,10 +16,10 @@
 					{{end}}
 				</div>
 			</div>
-			<a href="{{AppSubUrl}}/vendor/librejs.html" data-jslicense="1">JavaScript licenses</a>
-			{{if .EnableSwagger}}<a href="{{AppSubUrl}}/api/swagger">API</a>{{end}}
-			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io">{{.i18n.Tr "website"}}</a>
-			{{if (or .ShowFooterVersion .PageIsAdmin)}}<span class="version">{{GoVer}}</span>{{end}}
+			<a href="{{AppSubUrl}}/vendor/librejs.html" data-jslicense="1" style="color:#660000;">JavaScript licenses</a>
+			{{if .EnableSwagger}}<a href="{{AppSubUrl}}/api/swagger" style="color:#660000;">API</a>{{end}}
+			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io" style="color:#660000;">{{.i18n.Tr "website"}}</a>
+			{{if (or .ShowFooterVersion .PageIsAdmin)}}<span class="version" style="color:#660000;">{{GoVer}}</span>{{end}}
 		</div>
 	</div>
 </footer>
