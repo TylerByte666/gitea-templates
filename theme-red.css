@@ -11,7 +11,7 @@
 .hljs-comment,.hljs-deletion,.hljs-meta{color:#7f7f7f}
 .repository .ui.segment.sub-menu .list .item a{color:#dbdbdb}
 .ui.horizontal.segments>.segment{background-color:#383c4a}
-body{background:#383c4a;color:#ff8080;}
+body{background:#383c4a;color:#9e9e9e}
 a{color:#ff8080 }
 .octicon .octicon-flame{color:#ff8080;}
 .following.bar .octicon{ color:#ff8080;}
@@ -33,9 +33,8 @@ a:hover{color:#a0cc75}
 .ui.progress.success .bar{background-color:#7b9e57!important}
 .following.bar.light{background:#2e323e;border-bottom:1px solid #313131}
 .ui.secondary.menu .active.item{color:#ff8080;}
-.ui.secondary.menu .item:hover{color:red;}
 .ui.secondary.menu .item{color:#9e9e9e}
-.following.bar .top.menu a.item:hover{color:red;}
+.following.bar .top.menu a.item:hover{color:#fff}
 .repository.view.issue .comment-list .comment .content>.bottom.segment a{border:solid 1px #353945;background-color:#353945}
 .ui.attached.header{background:#404552;border:1px solid #404552;color:#dbdbdb}
 .ui.attached.table{border:1px solid #304251;background:#304251}
@@ -73,7 +72,7 @@ footer{background:#2e323e;border-top:1px solid #313131}
 .ui.tabular.menu .active.item{background:#383c4a;color:#dbdbdb;border-left:1px solid transparent;border-right:1px solid transparent;border-top:0}
 .ui.tabular.menu .item{color:#9e9e9e}
 .ui.tabular.menu .item:hover{color:#dbdbdb}
-.ui.breadcrumb .divider,.ui.header{color:#ff8080;}
+.ui.breadcrumb .divider,.ui.header{color:#9e9e9e}
 .ui.blue.label,.ui.blue.labels .label{background-color:#26577b!important;border-color:#26577b!important}
 .ui.menu .item>.label{background:#565454}
 .ui.blue.button,.ui.blue.buttons .button{background-color:#87ab63}
