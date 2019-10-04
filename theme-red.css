@@ -33,8 +33,9 @@ a:hover{color:#a0cc75}
 .ui.progress.success .bar{background-color:#7b9e57!important}
 .following.bar.light{background:#2e323e;border-bottom:1px solid #313131}
 .ui.secondary.menu .active.item{color:#ff8080;}
+.ui.secondary.menu .item:hover{color:red;}
 .ui.secondary.menu .item{color:#9e9e9e}
-.following.bar .top.menu a.item:hover{color:#fff}
+.following.bar .top.menu a.item:hover{color:red;}
 .repository.view.issue .comment-list .comment .content>.bottom.segment a{border:solid 1px #353945;background-color:#353945}
 .ui.attached.header{background:#404552;border:1px solid #404552;color:#dbdbdb}
 .ui.attached.table{border:1px solid #304251;background:#304251}
