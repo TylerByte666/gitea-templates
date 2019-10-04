@@ -14,12 +14,12 @@
 		<a class="item {{if .PageIsPulls}}active{{end}}" href="{{AppSubUrl}}/pulls">{{.i18n.Tr "pull_requests"}}</a>
 		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos">{{.i18n.Tr "explore"}}</a>
 	{{else if .IsLandingPageHome}}
-		<a class="item {{if .PageIsHome}}active{{end}}" href="{{AppSubUrl}}/" style="color:red;font-size:20px;">{{.i18n.Tr "home"}}</a>
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:red;font-size:20px;">{{.i18n.Tr "explore"}}</a>
+		<a class="item {{if .PageIsHome}}active{{end}}" href="{{AppSubUrl}}/" style="color:white;font-size:20px;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:white;font-size:20px;">{{.i18n.Tr "explore"}}</a>
 	{{else if .IsLandingPageExplore}}
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:red;font-size:20px;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:white;font-size:20px;">{{.i18n.Tr "home"}}</a>
 	{{else if .IsLandingPageOrganizations}}
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/organizations" style="color:red;font-size:20px;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/organizations" style="color:white;font-size:20px;">{{.i18n.Tr "home"}}</a>
 	{{end}}
 
 	{{template "custom/extra_links" .}}
@@ -55,14 +55,14 @@
 					<i class="fitted octicon octicon-triangle-down not-mobile"></i>
 				</span>
 				<div class="menu">
-					<a class="item" href="{{AppSubUrl}}/repo/create" style="color:red;">
+					<a class="item" href="{{AppSubUrl}}/repo/create" style="color:white;">
 						<i class="octicon octicon-plus"></i> {{.i18n.Tr "new_repo"}}
 					</a>
-					<a class="item" href="{{AppSubUrl}}/repo/migrate" style="color:red;">
+					<a class="item" href="{{AppSubUrl}}/repo/migrate" style="color:white;">
 						<i class="octicon octicon-repo-clone"></i> {{.i18n.Tr "new_migrate"}}
 					</a>
 					{{if .SignedUser.CanCreateOrganization}}
-					<a class="item" href="{{AppSubUrl}}/org/create" style="color:red;">
+					<a class="item" href="{{AppSubUrl}}/org/create" style="color:white;">
 						<i class="octicon octicon-organization"></i> {{.i18n.Tr "new_org"}}
 					</a>
 					{{end}}
@@ -118,14 +118,14 @@
 
 	{{else}}
 
-		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="color:red;font-size:20px;">{{.i18n.Tr "help"}}</a>
+		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="color:white;font-size:20px;">{{.i18n.Tr "help"}}</a>
 		<div class="right stackable menu">
 			{{if .ShowRegistrationButton}}
-				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="color:red;font-size:20px;">
+				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="color:white;font-size:20px;">
 					<i class="octicon octicon-person" style="color:red;font-size:20px;"></i> {{.i18n.Tr "register"}}
 				</a>
 			{{end}}
-			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="color:red;font-size:20px;">
+			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="color:white;font-size:20px;">
 				<i class="octicon octicon-sign-in" style="color:red;font-size:20px;"></i> {{.i18n.Tr "sign_in"}}
 			</a>
 		</div><!-- end anonymous right menu -->
