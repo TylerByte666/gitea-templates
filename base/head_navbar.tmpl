@@ -1,7 +1,7 @@
-<div class="ui container" id="navbar" style="background-color:color:#ff3333; color:#660000;">
+<div class="ui container" id="navbar">
 	<div class="item brand" style="justify-content: space-between;">
 		<a href="{{AppSubUrl}}/">
-			<i class="octicon octicon-flame" style="font-size:30px;color:#660000;"></i>
+			<i class="octicon octicon-flame" style="font-size:30px;color:red;"></i>
 		</a>
 		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
 			<i class="sidebar icon"></i>
@@ -14,12 +14,12 @@
 		<a class="item {{if .PageIsPulls}}active{{end}}" href="{{AppSubUrl}}/pulls">{{.i18n.Tr "pull_requests"}}</a>
 		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos">{{.i18n.Tr "explore"}}</a>
 	{{else if .IsLandingPageHome}}
-		<a class="item {{if .PageIsHome}}active{{end}}" href="{{AppSubUrl}}/" style="color:#660000;">{{.i18n.Tr "home"}}</a>
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:#660000;">{{.i18n.Tr "explore"}}</a>
+		<a class="item {{if .PageIsHome}}active{{end}}" href="{{AppSubUrl}}/" style="color:red;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:red;">{{.i18n.Tr "explore"}}</a>
 	{{else if .IsLandingPageExplore}}
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:#660000;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/repos" style="color:red;">{{.i18n.Tr "home"}}</a>
 	{{else if .IsLandingPageOrganizations}}
-		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/organizations" style="color:#660000;">{{.i18n.Tr "home"}}</a>
+		<a class="item {{if .PageIsExplore}}active{{end}}" href="{{AppSubUrl}}/explore/organizations" style="color:red;">{{.i18n.Tr "home"}}</a>
 	{{end}}
 
 	{{template "custom/extra_links" .}}
@@ -55,14 +55,14 @@
 					<i class="fitted octicon octicon-triangle-down not-mobile"></i>
 				</span>
 				<div class="menu">
-					<a class="item" href="{{AppSubUrl}}/repo/create">
+					<a class="item" href="{{AppSubUrl}}/repo/create" style="color:red;">
 						<i class="octicon octicon-plus"></i> {{.i18n.Tr "new_repo"}}
 					</a>
-					<a class="item" href="{{AppSubUrl}}/repo/migrate">
+					<a class="item" href="{{AppSubUrl}}/repo/migrate" style="color:red;">
 						<i class="octicon octicon-repo-clone"></i> {{.i18n.Tr "new_migrate"}}
 					</a>
 					{{if .SignedUser.CanCreateOrganization}}
-					<a class="item" href="{{AppSubUrl}}/org/create">
+					<a class="item" href="{{AppSubUrl}}/org/create" style="color:red;">
 						<i class="octicon octicon-organization"></i> {{.i18n.Tr "new_org"}}
 					</a>
 					{{end}}
@@ -118,15 +118,15 @@
 
 	{{else}}
 
-		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="color:#660000;">{{.i18n.Tr "help"}}</a>
+		<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io" style="color:red;">{{.i18n.Tr "help"}}</a>
 		<div class="right stackable menu">
 			{{if .ShowRegistrationButton}}
-				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="color:#660000;">
-					<i class="octicon octicon-person" style="color:#660000;"></i> {{.i18n.Tr "register"}}
+				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="color:red;">
+					<i class="octicon octicon-person" style="color:red;"></i> {{.i18n.Tr "register"}}
 				</a>
 			{{end}}
-			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="color:#660000;">
-				<i class="octicon octicon-sign-in" style="color:#660000;"></i> {{.i18n.Tr "sign_in"}}
+			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="color:red;">
+				<i class="octicon octicon-sign-in" style="color:red;"></i> {{.i18n.Tr "sign_in"}}
 			</a>
 		</div><!-- end anonymous right menu -->
 
