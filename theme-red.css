@@ -174,7 +174,7 @@ input{background:#2e323e}
 .ui.info.message{background-color:#2c3b4a;color:#9ebcc5}
 .ui .warning.header{background-color:#5d3a22!important;border-color:#794f31}
 .ui.red.message{background-color:rgba(80,23,17,.6);color:#f9cbcb;box-shadow:0 0 0 1px rgba(121,71,66,.5) inset,0 0 0 0 transparent}
-.ui.red.button,.ui.red.buttons .button{background-color:#7d3434}
+.ui.red.button,.ui.red.buttons .button{background-color:#4d0000 }
 .ui.red.button:hover,.ui.red.buttons .button:hover{background-color:#984646}
 .ui.checkbox label:hover,.ui.checkbox+label:hover{color:#dbdbdb!important}
 .ui.checkbox input:checked~.box:after,.ui.checkbox input:checked~label:after{color:#7f98ad}
@@ -195,7 +195,7 @@ input{background:#2e323e}
 .user.profile .ui.card .extra.content ul li:not(:last-child){border-bottom:1px solid #4c505c}
 .hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:#bd84bf}
 .ui.form .dropzone{border:2px dashed #4c505c}
-.ui.basic.red.button,.ui.basic.red.buttons .button{box-shadow:0 0 0 1px black inset!important;color:#4d0000 !important}
+.ui.basic.red.button,.ui.basic.red.buttons .button{box-shadow:0 0 0 1px #a04141 inset!important;color:#a04141!important}
 .ui.list .list>.item .header,.ui.list>.item .header{color:#dedede}
 .ui.list .list>.item .description,.ui.list>.item .description{color:#9e9e9e}
 .ui.user.list .item .description a{color:#668cb1}
