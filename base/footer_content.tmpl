@@ -7,19 +7,19 @@
 			{{if .ShowFooterBranding}}
 				<a target="_blank" rel="noopener noreferrer" href="https://github.com/go-gitea/gitea"><i class="fa fa-github-square"></i><span class="sr-only">GitHub</span></a>
 			{{end}}
-			<div class="ui language bottom floating slide up dropdown link item" style="color:red;">
+			<div class="ui language bottom floating slide up dropdown link item" style="color:#ff8080;">
 				<i class="world icon"></i>
 				<div class="text">{{.LangName}}</div>
-				<div class="menu" style="color:red;">
+				<div class="menu" style="color:#ff8080;">
 					{{range .AllLangs}}
-						<a lang="{{.Lang}}" class="item {{if eq $.Lang .Lang}}active selected{{end}}" style="color:red;" href="{{if eq $.Lang .Lang}}#{{else}}{{$.Link}}?lang={{.Lang}}{{end}}">{{.Name}}</a>
+						<a lang="{{.Lang}}" class="item {{if eq $.Lang .Lang}}active selected{{end}}" style="color:#ff8080;" href="{{if eq $.Lang .Lang}}#{{else}}{{$.Link}}?lang={{.Lang}}{{end}}">{{.Name}}</a>
 					{{end}}
 				</div>
 			</div>
-			<a href="{{AppSubUrl}}/vendor/librejs.html" data-jslicense="1" style="color:red;">JavaScript licenses</a>
-			{{if .EnableSwagger}}<a href="{{AppSubUrl}}/api/swagger" style="color:red;">API</a>{{end}}
-			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io" style="color:red;">{{.i18n.Tr "website"}}</a>
-			{{if (or .ShowFooterVersion .PageIsAdmin)}}<span class="version" style="color:red;">{{GoVer}}</span>{{end}}
+			<a href="{{AppSubUrl}}/vendor/librejs.html" data-jslicense="1" style="color:#ff8080;">JavaScript licenses</a>
+			{{if .EnableSwagger}}<a href="{{AppSubUrl}}/api/swagger" style="color:#ff8080;">API</a>{{end}}
+			<a target="_blank" rel="noopener noreferrer" href="https://gitea.io" style="color:#ff8080;">{{.i18n.Tr "website"}}</a>
+			{{if (or .ShowFooterVersion .PageIsAdmin)}}<span class="version" style="color:#ff8080;">{{GoVer}}</span>{{end}}
 		</div>
 	</div>
 </footer>
