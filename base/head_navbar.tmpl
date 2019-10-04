@@ -122,11 +122,11 @@
 		<div class="right stackable menu">
 			{{if .ShowRegistrationButton}}
 				<a class="item{{if .PageIsSignUp}} active{{end}}" href="{{AppSubUrl}}/user/sign_up" style="font-size:20px;">
-					<i class="octicon octicon-person" style="color:red;font-size:20px;"></i> {{.i18n.Tr "register"}}
+					<i class="octicon octicon-person" style="font-size:20px;"></i> {{.i18n.Tr "register"}}
 				</a>
 			{{end}}
 			<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubUrl}}/user/login?redirect_to={{.Link}}" style="font-size:20px;">
-				<i class="octicon octicon-sign-in" style="color:red;font-size:20px;"></i> {{.i18n.Tr "sign_in"}}
+				<i class="octicon octicon-sign-in" style="font-size:20px;"></i> {{.i18n.Tr "sign_in"}}
 			</a>
 		</div><!-- end anonymous right menu -->
 	{{end}}
