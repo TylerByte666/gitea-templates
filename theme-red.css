@@ -12,7 +12,7 @@
 .repository .ui.segment.sub-menu .list .item a{color:#dbdbdb}
 .ui.horizontal.segments>.segment{background-color:#383c4a}
 body{background:#383c4a;color:#9e9e9e}
-a{color:red}
+a{color:#4d0000 }
 a:hover{color:#a0cc75}
 .ui.card>.extra a:not(.ui):hover,.ui.cards>.card>.extra a:not(.ui):hover{color:#a0cc75}
 .ui.breadcrumb a:hover{color:#a0cc75}
@@ -223,7 +223,7 @@ a.ui.label:hover,a.ui.labels .label:hover{background-color:#505667;color:#dbdbdb
 .editor-toolbar{background-color:#404552}
 .editor-toolbar a{color:#87ab63!important}
 .repository .diff-detail-box{background-color:#383c4a}
-.repository .diff-detail-box .detail-files{background-color:inherit;font-size: 20px}
+.repository .diff-detail-box .detail-files{background-color:inherit;}
 .comment-code-cloud .ui.attached.tabular.menu{background:none transparent;border:0}
 .comment-code-cloud .footer .markdown-info{color:inherit}
 .file-comment{color:#888}
