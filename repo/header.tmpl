@@ -49,7 +49,7 @@
 {{end}}
 
 	<div class="ui tabs container">
-		<div class="ui tabular stackable menu navbar" style="margin-bottom:-1px">
+		<div class="ui tabular stackable menu navbar repo-tab-bottom">
 			{{if .Permission.CanRead $.UnitTypeCode}}
 			<a class="{{if .PageIsViewCode}}active{{end}} item" href="{{.RepoLink}}{{if (ne .BranchName .Repository.DefaultBranch)}}/src/{{.BranchNameSubURL | EscapePound}}{{end}}">
 				<i class="octicon octicon-code"></i> {{.i18n.Tr "repo.code"}}
