@@ -20,12 +20,6 @@ a{color:#984646 }
 .main-red{
     color: #984646;
 }
-.repository.file.list #repo-files-table tbody .octicon.octicon-file-directory{
-    color:#ff8080;
-}
-.ui.basic.blue.buttons .button{
-    color:#ff8080;
-}
 .theme-red-sub-menu-font-size{font-size: 20px}
 .octicon .octicon-flame{color:#984646;}
 .following.bar .octicon { color:#984646;}
@@ -216,14 +210,14 @@ input{background:#2e323e}
 .ui.list .list>.item .description,.ui.list>.item .description{color:#9e9e9e}
 .ui.user.list .item .description a{color:#668cb1}
 .repository.file.list #file-content .code-view .lines-num{background:#2e323e}
-.repository.file.list #repo-files-table tbody .octicon.octicon-file-directory,.repository.file.list #repo-files-table tbody .octicon.octicon-file-submodule{color:#7c9b5e}
+.repository.file.list #repo-files-table tbody .octicon.octicon-file-directory,.repository.file.list #repo-files-table tbody .octicon.octicon-file-submodule{color:#ff8080}
 .ui.blue.button:focus,.ui.blue.buttons .button:focus{background-color:#a27558}
 .ui.basic.blue.button:hover,.ui.basic.blue.buttons .button:hover{box-shadow:0 0 0 1px #87ab63 inset!important;color:#87ab63!important}
 .ui.basic.blue.button:focus,.ui.basic.blue.buttons .button:focus{box-shadow:0 0 0 1px #87ab63 inset!important;color:#87ab63!important}
 .repository.file.list #file-content .code-view .lines-code .hljs,.repository.file.list #file-content .code-view .lines-code ol,.repository.file.list #file-content .code-view .lines-code pre,.repository.file.list #file-content .code-view .lines-num .hljs,.repository.file.list #file-content .code-view .lines-num ol,.repository.file.list #file-content .code-view .lines-num pre{background-color:#2a2e3a}
 a.ui.label:hover,a.ui.labels .label:hover{background-color:#505667;color:#dbdbdb}
 .repository .label.list .item{border-bottom:1px dashed #4c505c}
-.ui.basic.blue.button,.ui.basic.blue.buttons .button{box-shadow:0 0 0 1px #87ab63 inset!important;color:#87ab63!important}
+.ui.basic.blue.button,.ui.basic.blue.buttons .button{box-shadow:0 0 0 1px #ff8080 inset!important;color:#ff8080!important}
 .repository.file.list #file-content .code-view .hljs,.repository.file.list #file-content .code-view .lines-code ol,.repository.file.list #file-content .code-view .lines-code pre,.repository.file.list #file-content .code-view .lines-num .hljs,.repository.file.list #file-content .code-view .lines-num ol,.repository.file.list #file-content .code-view .lines-num pre{background-color:#2a2e3a}
 .repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(1),.repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(2),.repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(3),.repository .diff-file-box .code-diff-split tbody tr.del-code td:nth-child(4),.repository .diff-file-box .code-diff-split tbody tr.del-code td:nth-child(5),.repository .diff-file-box .code-diff-split tbody tr.del-code td:nth-child(6){background-color:#2a2e3a}
 .repository .diff-file-box .code-diff-split tbody tr td.add-code,.repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(4),.repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(5),.repository .diff-file-box .code-diff-split tbody tr.add-code td:nth-child(6){background-color:#283e2d!important;border-color:#314a37!important}
