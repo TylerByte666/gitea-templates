@@ -182,7 +182,7 @@ input{background:#2e323e}
 .ui.info.message{background-color:#2c3b4a;color:#9ebcc5}
 .ui .warning.header{background-color:#5d3a22!important;border-color:#794f31}
 .ui.red.message{background-color:rgba(80,23,17,.6);color:#f9cbcb;box-shadow:0 0 0 1px rgba(121,71,66,.5) inset,0 0 0 0 transparent}
-.ui.red.button,.ui.red.buttons .button{background-color:#4d0000 }
+.ui.red.button,.ui.red.buttons .button{background-color:#ff8080 }
 .ui.red.button:hover,.ui.red.buttons .button:hover{background-color:#984646}
 .ui.checkbox label:hover,.ui.checkbox+label:hover{color:#dbdbdb!important}
 .ui.checkbox input:checked~.box:after,.ui.checkbox input:checked~label:after{color:#7f98ad}
