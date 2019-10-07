@@ -213,8 +213,8 @@ input{background:#2e323e}
 .repository.file.list #file-content .code-view .lines-num{background:#2e323e}
 .repository.file.list #repo-files-table tbody .octicon.octicon-file-directory,.repository.file.list #repo-files-table tbody .octicon.octicon-file-submodule{color:#ff8080}
 .ui.blue.button:focus,.ui.blue.buttons .button:focus{background-color:#a27558}
-.ui.basic.blue.button:hover,.ui.basic.blue.buttons .button:hover{box-shadow:0 0 0 1px #87ab63 inset!important;color:#87ab63!important}
-.ui.basic.blue.button:focus,.ui.basic.blue.buttons .button:focus{box-shadow:0 0 0 1px #87ab63 inset!important;color:#87ab63!important}
+.ui.basic.blue.button:hover,.ui.basic.blue.buttons .button:hover{box-shadow:0 0 0 1px #ff8080 inset!important;color:#ff8080!important}
+.ui.basic.blue.button:focus,.ui.basic.blue.buttons .button:focus{box-shadow:0 0 0 1px #ff8080 inset!important;color:#ff8080!important}
 .repository.file.list #file-content .code-view .lines-code .hljs,.repository.file.list #file-content .code-view .lines-code ol,.repository.file.list #file-content .code-view .lines-code pre,.repository.file.list #file-content .code-view .lines-num .hljs,.repository.file.list #file-content .code-view .lines-num ol,.repository.file.list #file-content .code-view .lines-num pre{background-color:#2a2e3a}
 a.ui.label:hover,a.ui.labels .label:hover{background-color:#505667;color:#dbdbdb}
 .repository .label.list .item{border-bottom:1px dashed #4c505c}
