@@ -17,6 +17,9 @@ a{color:#984646 }
     text-decoration: underline;
     color:#ff8080;
 }
+.main-red{
+    color: #984646;
+}
 .theme-red-sub-menu-font-size{font-size: 20px}
 .octicon .octicon-flame{color:#984646;}
 .following.bar .octicon { color:#984646;}
