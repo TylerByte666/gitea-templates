@@ -11,7 +11,7 @@
 .hljs-comment,.hljs-deletion,.hljs-meta{color:#7f7f7f}
 .repository .ui.segment.sub-menu .list .item a{color:#dbdbdb}
 .ui.horizontal.segments>.segment{background-color:#383c4a}
-body{background:#383c4a;color:#9e9e9e}
+body{background:black;color:#9e9e9e}
 a{color:#984646 }
 .theme-red-highlight{
     text-decoration: underline;
