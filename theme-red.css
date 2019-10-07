@@ -165,7 +165,7 @@ footer{background:#2e323e;border-top:1px solid #313131; color: #ff8080}
 .ui .text.black{color:#9e9e9e}
 .ui .text.black:hover{color:#dbdbdb}
 .ui.secondary.segment{background:#353945}
-.ui.secondary.pointing.menu .active.item{color:#dbdbdb;border:0;background:#383c4a}
+.ui.secondary.pointing.menu .active.item{color:#ff8080;border:0;background:#383c4a}
 .ui.user.list .item:not(:first-child){border-top:1px solid #4c505c}
 .ui.secondary.pointing.menu .active.item:hover{border-color:#af8b4c;color:#dbdbdb;background:#4b5162}
 .ui.secondary.pointing.menu .dropdown.item:hover,.ui.secondary.pointing.menu .link.item:hover,.ui.secondary.pointing.menu a.item:hover{color:#dbdbdb}
