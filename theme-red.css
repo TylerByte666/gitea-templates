@@ -12,15 +12,15 @@
 .repository .ui.segment.sub-menu .list .item a{color:#dbdbdb}
 .ui.horizontal.segments>.segment{background-color:#383c4a}
 body{background:#383c4a;color:#9e9e9e}
-a{color:#ff8080 }
+a{color:#984646 }
 .theme-red-highlight{
     text-decoration: underline;
     color:#ff8080;
 }
-.theme-red-sub-menu-font-size{font-size: 15px}
-.octicon .octicon-flame{color:#ff8080;}
+.theme-red-sub-menu-font-size{font-size: 20px}
+.octicon .octicon-flame{color:#984646;}
 .following.bar .octicon { color:#984646;}
-a:hover{color:#a0cc75}
+a:hover{color:#ff8080}
 .ui.card>.extra a:not(.ui):hover,.ui.cards>.card>.extra a:not(.ui):hover{color:#a0cc75}
 .ui.breadcrumb a:hover{color:#a0cc75}
 .ui.breadcrumb a{color:#87ab63}
