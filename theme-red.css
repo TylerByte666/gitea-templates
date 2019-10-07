@@ -40,7 +40,7 @@ a:hover{color:#ff8080}
 .ui.green.progress .bar{background-color:#684}
 .ui.progress.success .bar{background-color:#7b9e57!important}
 .following.bar.light{background:black;border-bottom:1px solid #313131}
-.ui.secondary.menu .active.item{color:#ff8080;}
+.ui.secondary.menu .active.item{color:#ff8080;background-color: }
 .ui.secondary.menu .item{color:#984646}
 .following.bar .top.menu a.item:hover{color:#ff8080}
 .repository.view.issue .comment-list .comment .content>.bottom.segment a{border:solid 1px #353945;background-color:#353945}
@@ -51,7 +51,7 @@ a:hover{color:#ff8080}
 .ui.secondary.menu .dropdown.item:hover,.ui.secondary.menu .link.item:hover,.ui.secondary.menu a.item:hover{color:#fff}
 .ui.menu .ui.dropdown .menu>.item{background:#2c303a!important;color:#9e9e9e!important}
 .ui.secondary.menu .dropdown.item>.menu,.ui.text.menu .dropdown.item>.menu{border:1px solid #434444}
-footer{background:#2e323e;border-top:1px solid #313131; color: #ff8080}
+footer{background:black;border-top:1px solid #313131; color: #ff8080}
 .ui.menu .dropdown.item .menu{background:#2c303a}
 .ui.menu .ui.dropdown .menu>.item:hover,.ui.menu .ui.dropdown .menu>.selected.item{color:#fff!important}
 .ui.dropdown .menu>.header{color:#dbdbdb}
