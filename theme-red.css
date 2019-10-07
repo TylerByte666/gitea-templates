@@ -27,7 +27,7 @@ a{color:#984646 }
 a:hover{color:#ff8080}
 .ui.card>.extra a:not(.ui):hover,.ui.cards>.card>.extra a:not(.ui):hover{color:#a0cc75}
 .ui.breadcrumb a:hover{color:#a0cc75}
-.ui.breadcrumb a{color:#984646}
+.ui.breadcrumb a{color:#ff8080}
 .repository .metas .ui.list a .text{color:#87ab63}
 .repository .metas .ui.list a .text:hover{color:#a0cc75}
 .repository .label.list .item a{color:#87ab63}
@@ -70,7 +70,7 @@ footer{background:#2e323e;border-top:1px solid #313131; color: #ff8080}
 .ui.basic.green.label,.ui.green.label,.ui.green.labels .label{background-color:#2d693b!important;border-color:#2d693b!important}
 .ui.basic.green.labels a.label:hover,a.ui.basic.green.label:hover{background-color:#16ab39!important;border-color:#16ab39!important;color:#fff!important}
 .issue.list>.item .comment{color:#129c92}
-.ui.basic.button,.ui.basic.buttons .button{color:#797979!important}
+.ui.basic.button,.ui.basic.buttons .button{color:#ff8080!important}
 .ui.basic.red.active.button,.ui.basic.red.buttons .active.button{box-shadow:0 0 0 1px #c75252 inset!important;color:#c75252!important}
 .ui.basic.button:focus,.ui.basic.button:hover,.ui.basic.buttons .button:focus,.ui.basic.buttons .button:hover{background:0 0!important;color:#dbdbdb!important}
 .ui.menu .item{background:#404552;color:#9e9e9e}
