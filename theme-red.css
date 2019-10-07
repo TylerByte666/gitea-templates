@@ -20,13 +20,16 @@ a{color:#984646 }
 .main-red{
     color: #984646;
 }
+.mega-octicon .octicon-repo{
+    color: #ff8080;
+}
 .theme-red-sub-menu-font-size{font-size: 20px}
 .octicon .octicon-flame{color:#984646;}
 .following.bar .octicon { color:#984646;}
 a:hover{color:#ff8080}
 .ui.card>.extra a:not(.ui):hover,.ui.cards>.card>.extra a:not(.ui):hover{color:#a0cc75}
 .ui.breadcrumb a:hover{color:#a0cc75}
-.ui.breadcrumb a{color:#87ab63}
+.ui.breadcrumb a{color:#984646}
 .repository .metas .ui.list a .text{color:#87ab63}
 .repository .metas .ui.list a .text:hover{color:#a0cc75}
 .repository .label.list .item a{color:#87ab63}
