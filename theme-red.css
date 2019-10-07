@@ -75,7 +75,7 @@ footer{background:#2e323e;border-top:1px solid #313131; color: #ff8080}
 .ui.menu .item{background:#404552;color:#9e9e9e}
 .ui.menu .item.disabled,.ui.menu .item.disabled:hover{color:#626773}
 .ui.pagination.menu .active.item{color:#dbdbdb;background-color:#87ab63}
-.repository .header-wrapper{background-color:#2a2e3a}
+.repository .header-wrapper{background-color:#984646}
 .ui.tabular.menu .active.item{background:black;color:#ff8080;border-left:1px solid transparent;border-right:1px solid transparent;border-top:0;margin-bottom:-1px}
 .ui.tabular.menu .item{color:#984646}
 .ui.tabular.menu .item:hover{color:#dbdbdb}
