@@ -10,5 +10,6 @@ by Tyler Geyser
 2. Create a folder called *templates* within you custom root dir.
 3. Clone the repo:
 ``` git clone http://codex.tgh.na:3000/TylerByte/GiteaCustomTemplates.git ``` or public at ``` git clone https://github.com/TylerByte666/gitea-templates.git ```
-4. Copy everything within the cloned file called *GiteaCustomTemplates* into the newly created templates folder in your custom root dir. Keep the format.
-5. Restart your Gitea Linux/Windows Service.
+4. Copy everything except theme-red.css that is within the cloned file called *GiteaCustomTemplates* into the newly created templates folder in your custom root dir. Keep the format.
+5. Move theme-red.css to your custom root directory in a folder called \public\css\.
+6. Restart your Gitea Linux/Windows Service.
